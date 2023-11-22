@@ -29,27 +29,29 @@ const Navbarmobile = () => {
           <Image className="profile-picture" src={profileImage} alt="Foto di Profilo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Button className="btn" onClick={() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }}>
-            <strong>HOME</strong>
-          </Button>
-          <Button className="btn" onClick={() => {
-            window.scrollTo({ top: 500, behavior: 'smooth' });
-          }}>
-            <strong>MY COURSE</strong>
-          </Button>
-          <Button className="btn" onClick={() => {
-            window.scrollTo({ top: 3600, behavior: 'smooth' });
-          }}>
-            <strong>PROJECT</strong>
-          </Button>
-          <Button className="btn" onClick={() => {
-            window.scrollTo({ top: 4100, behavior: 'smooth' });
-          }}>
-            <strong>CONTACT</strong>
-          </Button>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-md-center">
+          <div className="d-flex flex-column">
+            <Button className="btn mb-2" onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}>
+              <strong>HOME</strong>
+            </Button>
+            <Button className="btn mb-2" onClick={() => {
+              window.scrollTo({ top: 500, behavior: 'smooth' });
+            }}>
+              <strong>MY COURSE</strong>
+            </Button>
+            <Button className="btn mb-2" onClick={() => {
+              window.scrollTo({ top: 3600, behavior: 'smooth' });
+            }}>
+              <strong>PROJECT</strong>
+            </Button>
+            <Button className="btn mb-2" onClick={() => {
+              window.scrollTo({ top: 4100, behavior: 'smooth' });
+            }}>
+              <strong>CONTACT</strong>
+            </Button>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
