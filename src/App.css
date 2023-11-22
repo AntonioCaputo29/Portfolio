@@ -389,7 +389,7 @@ h3 {
 
 
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .card-container .card {
     width: 80%; 
     margin-bottom: 20px; 
@@ -402,8 +402,9 @@ h3 {
   }
 
   .card-container .card .card-img {
-    max-width: 79%; 
+    max-width: 73%; 
     height: auto; 
   }
 }
+
 
