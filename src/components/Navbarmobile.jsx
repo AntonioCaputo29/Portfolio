@@ -43,7 +43,7 @@ const Navbarmobile = () => {
           <Button className="btn" onClick={() => {
             window.scrollTo({ top: 3450, behavior: 'smooth' });
           }}>
-            <strong>PROJECT</strong>
+            <strong>PROJECT.</strong>
           </Button>
           <Button className="btn" onClick={() => {
             window.scrollTo({ top: 3800, behavior: 'smooth' });
