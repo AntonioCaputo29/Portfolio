@@ -1,0 +1,387 @@
+.navbar-brand .profile-picture {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  padding-right: 80px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.btn {
+  text-decoration: none;
+  position: relative;
+  border: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #fff;
+  width: 9em;
+  height: 3em;
+  line-height: 2em;
+  text-align: center;
+  background: linear-gradient(90deg, #03a9f4, #f44141, rgb(225, 153, 28), #03a9f4);
+  background-size: 300%;
+  border-radius: 30px;
+  z-index: 1;
+  margin: 5px;
+}
+
+button:hover {
+  animation: ani 8s linear infinite;
+  border: none;
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+button:before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background-size: 400%;
+  border-radius: 35px;
+  transition: 1s;
+}
+
+button:hover::before {
+  filter: blur(20px);
+}
+
+button:active {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+
+.img-small1 {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.img-small {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.btn.navbar-btn {
+  background-color: red;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -15px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.contact-icon {
+  max-width: 300px;
+  height: 200px;
+}
+
+.contact-text {
+  margin: 0px;
+  margin-right: 50px;
+}
+
+
+
+body {
+  background-image: url(/src/assets/img/Home.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center top;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-left: -40px;
+}
+
+.card {
+  width: 400px;
+  border: none;
+}
+
+.card-img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.card .image-container {
+  overflow: hidden;
+  height: 500px;
+  width: 400px;
+}
+
+
+
+.card .card-text {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.mr-2 {
+  padding: 30px 30px;
+  font-size: 25px;
+  line-height: 1;
+  margin: 10px;
+}
+
+.carousel-container {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+
+.snake-border-form input[type='text'],
+.snake-border-form input[type='email'],
+.snake-border-form textarea {
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3),
+    0 0 10px 2px #03a9f4,
+    0 0 15px 8px #f441a5,
+    0 0 20px 8px #ffeb3b,
+    0 0 25px 8px #03a9f4;
+  transition: box-shadow 0.3s ease;
+}
+
+.snake-border-form input[type='text']:focus,
+.snake-border-form input[type='email']:focus,
+.snake-border-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3),
+    0 0 10px 2px #03a9f4,
+    0 0 15px 6px #f441a5,
+    0 0 20px 8px #ffeb3b,
+    0 0 25px 8px #03a9f4;
+}
+
+.card {
+  box-shadow: 0 4px 8px #03a9f4;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px #f441a5;
+}
+
+.custom-carousel-item {
+  box-shadow: 0 0 10px #03a9f4 !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  .contact-text {
+    font-size: 25px;
+    margin: 0px;
+  }
+  .contact-info{
+    margin-left: -10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custom-carousel-item {
+    box-shadow: none !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(36, 35, 35);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+}
+
+#content {
+  margin-top: 100px;
+}
+
+#Project {
+  margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+  .tasto {
+    font-size: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+
+
+.img-small1,
+.img-small {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+.img-small1 {
+  animation-name: slideFromLeft;
+}
+
+
+.img-small {
+  animation-name: slideFromRight;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+h1,
+h3 {
+  overflow: hidden;
+  border-right: .15em solid transparent;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: .15em;
+  animation: typing 5s steps(50) forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+
+.contatto {
+  margin-top: 50px;
+}
+
+
+@media (max-width: 991px) {
+
+  .navbar-toggler-icon {
+    background-color: white;
+    border-radius: 50px;
+  }
+
+
+  .navbar-nav .nav-link {
+    display: none;
+  }
+
+
+  .navbar-collapse {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 86px;
+    z-index: 1000;
+  }
+
+  .navbar-collapse a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+
+
+
+.custom-carousel-item img {
+  height: 400px; 
+}
+
+@media (max-width: 768px) {
+  .custom-carousel-item img {
+    height: 200px; 
+  }
+}
