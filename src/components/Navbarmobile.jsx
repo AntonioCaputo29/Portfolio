@@ -3,7 +3,7 @@ import { Navbar, Container, Image, Button } from 'react-bootstrap';
 import profileImage from '../assets/img/profile.jpg';
 
 const Navbarmobile = () => {
-  const [isNavbarFixed, setIsNavbarFixed] = useState(false);
+  const [isNavbarFixed, setIsNavbarFixed] = useState(true); // Cambia a true per mantenere la Navbar sempre visibile
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,13 +23,13 @@ const Navbarmobile = () => {
   }, []);
 
   return (
-    <Navbar bg="black" expand="lg" className={isNavbarFixed ? 'fixed-top' : ''}>
+    <Navbar bg="black" expand="lg" className={isNavbarFixed ? 'sticky-top' : ''}>
       <Container>
         <Navbar.Brand href="#">
           <Image className="profile-picture" src={profileImage} alt="Foto di Profilo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-md-center">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <div className="d-flex flex-column">
             <Button className="btn mb-2" onClick={() => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
