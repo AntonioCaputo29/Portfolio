@@ -385,3 +385,25 @@ h3 {
     height: 200px; 
   }
 }
+
+
+
+
+@media (max-width: 576px) {
+  .card-container .card {
+    width: 80%; 
+    margin-bottom: 20px; 
+   margin: 50px;
+    
+  }
+
+  .card-container .card .card-text {
+    padding: 10px; 
+  }
+
+  .card-container .card .card-img {
+    max-width: 79%; 
+    height: auto; 
+  }
+}
+
