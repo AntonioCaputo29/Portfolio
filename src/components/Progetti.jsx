@@ -9,6 +9,7 @@ import screenmemorygame from '../assets/img/screenmemorygame.png'
 import screennetflix from '../assets/img/screennetflix.png'
 import screenspotify from '../assets/img/screenspotify.png'
 import screenweather from '../assets/img/screenweather.png'
+import screencomunità from '../assest/img/screencomunità.png'
 import { FaGithub, FaYoutube } from "react-icons/fa";
 
 
@@ -23,6 +24,7 @@ const videos = [
   { src: screennetflix, description: 'Clone della piattaforma di Netflix realizzato interamente con Bootstrap.', repositoryLink: 'https://github.com/AntonioCaputo29/Esercizi-Epicode/tree/main/week6/Projectweek(10.03)' , youtubeLink: 'https://youtu.be/99uk4LHtYUc' },
   { src: screenspotify, description: 'Clone della piattaforma Spotify realizzato in HTML, CSS e Javascript più avanzato.', repositoryLink: '"https://github.com/mindthediv/Epicode-BuildWeek2' , youtubeLink: 'https://youtu.be/KgYhu0aD6qg'},
   { src: screenweather, description: 'App realizzata con React e Javascript per visionare le previsioni meteo di ogni città.', repositoryLink: 'https://github.com/AntonioCaputo29/weather-app' , youtubeLink: 'https://youtu.be/N2U6Iv48gmA'},
+  { src: screencomunità, description: 'Sito web di una comunità alloggio dove si possono visionare tutte le informazioni attinenti alle attività, realizzato con React e javascript' , youtubeLink: 'https://youtu.be/x_vCP99yo0k'}
 ];
 
 const VideoCarousel = () => {
