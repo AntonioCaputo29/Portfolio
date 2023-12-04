@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import epicodeImage from '../assets/img/epicode_4-removebg-preview.png';
-import progettoImage from '../assets/img/Progetto_senza_titolo-removebg-preview.png';
+import progettoImage from '../assets/img/Progetto_senza_titolo__7_-removebg-preview.png';
 
 const Content = () => {
   return (
