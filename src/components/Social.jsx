@@ -6,7 +6,7 @@ import Linkedin from '../assets/img/Linkedin.png';
 import Facebook from '../assets/img/Facebook.png';
 import Instagram from '../assets/img/Instagram.png';
 import Github from '../assets/img/Github.png';
-import CV from '../assets/img/cv.png';
+import cv from '../assets/img/cv.png';
 
 
 function Contatti() {
