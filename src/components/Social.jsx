@@ -53,7 +53,7 @@ function Contatti() {
             <br />
             <h4>VISUALIZZA IL MIO CV</h4>
             <div className="centered-image">
-                <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Cv..pdf" target="_blank" rel="noopener noreferrer">
                     <Image src={cv} alt="Anteprima CV" className="img-fluid" />
                 </a>
             </div>
