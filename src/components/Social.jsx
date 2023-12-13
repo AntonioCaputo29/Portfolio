@@ -6,7 +6,7 @@ import Linkedin from '../assets/img/Linkedin.png';
 import Facebook from '../assets/img/Facebook.png';
 import Instagram from '../assets/img/Instagram.png';
 import Github from '../assets/img/Github.png';
-import CV from '../assets/img/CV.jpeg';
+import CV from '../assets/img/cv.png';
 
 
 function Contatti() {
@@ -54,7 +54,7 @@ function Contatti() {
             <h4>VISUALIZZA IL MIO CV</h4>
             <div className="centered-image">
                 <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
-                    <Image src={CV} alt="Anteprima CV" className="img-fluid" />
+                    <Image src={cv} alt="Anteprima CV" className="img-fluid" />
                 </a>
             </div>
         </Container>
