@@ -10,7 +10,7 @@ import screennetflix from '../assets/img/screennetflix.png'
 import screenspotify from '../assets/img/screenspotify.png'
 import screenweather from '../assets/img/screenweather.png'
 import screencomunità from '../assets/img/screencomunità.png'
-import screensoftware from '../assest'
+import screensoftware from '../assets/img/Screenshot 2024-02-26 173954.png'
 import { FaGithub, FaYoutube } from "react-icons/fa";
 
 
@@ -25,7 +25,8 @@ const videos = [
   { src: screennetflix, description: 'Clone della piattaforma di Netflix realizzato interamente con Bootstrap.', repositoryLink: 'https://github.com/AntonioCaputo29/Esercizi-Epicode/tree/main/week6/Projectweek(10.03)' , youtubeLink: 'https://youtu.be/99uk4LHtYUc' },
   { src: screenspotify, description: 'Clone della piattaforma Spotify realizzato in HTML, CSS e Javascript più avanzato.', repositoryLink: '"https://github.com/mindthediv/Epicode-BuildWeek2' , youtubeLink: 'https://youtu.be/KgYhu0aD6qg'},
   { src: screenweather, description: 'App realizzata con React e Javascript per visionare le previsioni meteo di ogni città.', repositoryLink: 'https://github.com/AntonioCaputo29/weather-app' , youtubeLink: 'https://youtu.be/N2U6Iv48gmA'},
-  { src: screencomunità, description: 'Sito web di una comunità alloggio dove si possono visionare tutte le informazioni attinenti alle attività, realizzato con React e javascript' , repositoryLink:'https://github.com/AntonioCaputo29/Comunit-alloggio', youtubeLink: 'https://youtu.be/x_vCP99yo0k'}
+  { src: screencomunità, description: 'Sito web di una comunità alloggio dove si possono visionare tutte le informazioni attinenti alle attività, realizzato con React e javascript' , repositoryLink:'https://github.com/AntonioCaputo29/Comunit-alloggio', youtubeLink: 'https://youtu.be/x_vCP99yo0k'},
+  { src: screensoftware, description: 'Progetto di una software House work in progress', repositoryLink: 'https://github.com/AntonioCaputo29/Softwarehouse' , youtubeLink: 'https://lnkd.in/dMvfWQRF'}
 ];
 
 const VideoCarousel = () => {
