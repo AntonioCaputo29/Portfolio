@@ -26,7 +26,7 @@ const videos = [
   { src: screenspotify, description: 'Clone della piattaforma Spotify realizzato in HTML, CSS e Javascript più avanzato.', repositoryLink: '"https://github.com/mindthediv/Epicode-BuildWeek2' , youtubeLink: 'https://youtu.be/KgYhu0aD6qg'},
   { src: screenweather, description: 'App realizzata con React e Javascript per visionare le previsioni meteo di ogni città.', repositoryLink: 'https://github.com/AntonioCaputo29/weather-app' , youtubeLink: 'https://youtu.be/N2U6Iv48gmA'},
   { src: screencomunità, description: 'Sito web di una comunità alloggio dove si possono visionare tutte le informazioni attinenti alle attività, realizzato con React e javascript' , repositoryLink:'https://github.com/AntonioCaputo29/Comunit-alloggio', youtubeLink: 'https://youtu.be/x_vCP99yo0k'},
-  { src: screensoftware, description: 'Progetto di una software House work in progress', repositoryLink: 'https://github.com/AntonioCaputo29/Softwarehouse' , youtubeLink: 'https://lnkd.in/dMvfWQRF'}
+  { src: screensoftware, description: 'Progetto di una software House work in progress', repositoryLink: 'https://github.com/AntonioCaputo29/Softwarehouse' , youtubeLink: 'https://softwarehouse-three.vercel.app/'}
 ];
 
 const VideoCarousel = () => {
