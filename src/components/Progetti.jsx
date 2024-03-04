@@ -10,6 +10,7 @@ import screennetflix from '../assets/img/screennetflix.png'
 import screenspotify from '../assets/img/screenspotify.png'
 import screenweather from '../assets/img/screenweather.png'
 import screencomunità from '../assets/img/screencomunità.png'
+import screensoftware from '../assest'
 import { FaGithub, FaYoutube } from "react-icons/fa";
 
 
