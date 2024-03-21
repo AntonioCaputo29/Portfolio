@@ -3,7 +3,7 @@ import { Navbar, Container, Image, Button } from 'react-bootstrap';
 import profileImage from '../assets/img/profile.jpg';
 
 const Navbarmobile = () => {
-  const [isNavbarFixed, setIsNavbarFixed] = useState(true); // Cambia a true per mantenere la Navbar sempre visibile
+  const [isNavbarFixed, setIsNavbarFixed] = useState(true); 
 
   useEffect(() => {
     const handleScroll = () => {
